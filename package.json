@@ -1,0 +1,52 @@
+{
+  "name": "true-random-tools",
+  "version": "1.0.0",
+  "description": "There is no really random value in pure computation—all are pre-calculated. Real randomness comes from physical entropy like atmospheric noise. Fetch true random numbers from Random.org with customizable parameters.",
+  "main": "src/index.js",
+  "module": "src/index.mjs",
+  "types": "index.d.ts",
+  "bin": {
+    "true-random-tools": "bin/cli.js"
+  },
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./src/index.mjs",
+      "require": "./src/index.js"
+    }
+  },
+  "files": [
+    "src",
+    "bin",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "random",
+    "true-random",
+    "random.org",
+    "random-number-generator",
+    "rng",
+    "integers",
+    "atmospheric-noise",
+    "entropy"
+  ],
+  "author": "Kavindu",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kavix/true-random-tools.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kavix/true-random-tools/issues"
+  },
+  "homepage": "https://github.com/kavix/true-random-tools#readme"
+}
