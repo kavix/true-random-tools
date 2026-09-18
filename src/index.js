@@ -86,7 +86,7 @@ async function fetchRandomRaw(params = {}, fetchOptions = {}) {
   const url = buildRandomUrl(params);
   const response = await fetch(url, {
     headers: {
-      'User-Agent': 'true-random-tools/1.0.0 (https://github.com)'
+      'User-Agent': 'true-random-tools/1.0.1 (https://github.com/kavix/true-random-tools)'
     },
     ...fetchOptions
   });
