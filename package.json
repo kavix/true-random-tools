@@ -1,6 +1,6 @@
 {
   "name": "true-random-tools",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "There is no really random value in pure computation—all are pre-calculated. Real randomness comes from physical entropy like atmospheric noise. Fetch true random numbers from Random.org with customizable parameters.",
   "main": "src/index.js",
   "module": "src/index.mjs",
